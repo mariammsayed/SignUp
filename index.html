@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+
+<body >
+    <section class="p-3 mb-5 rounded vh-100 text-center d-flex justify-content-center align-items-center">
+        <div class="container bg-dark rounded p-5">
+            <h1 class="mb-5 text-white">Smart Login System</h1>
+            <form >
+                <input type="email" class="form-control mb-3" placeholder="Enter Your Email" id="emailInput">
+                <input type="password" class="form-control mb-3" placeholder="Enter Your Password" id="passwordInput">
+            </form>
+            <p id="error" class="d-none text-danger">All inputs is required</p>
+            <p id="incorrect" class="d-none text-danger">incorrect email or password</p>
+            <div><a class="btn btn-outline-primary w-100 mb-5" id="login">Login</a></div>
+            <p class="text-white">Don’t have an account? <a href="./signUp.html">Sign Up</a></p>
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
